@@ -8,9 +8,14 @@ Preprint available at https://arxiv.org/abs/2503.13581
 
 ## Installation
 
-Analysis was conducted on Python 3.11.10 running on JupyterLab v4.0.11 on Ubuntu 22.04.5 LTS
+Analysis was conducted on Python 3.12 running on JupyterLab v4.0.11 on Ubuntu 22.04.5 LTS
 
 Python packages used for the analysis are listed in `requirements.txt` and can be installed with `pip install -r requirements.txt`
+
+Create a .env file inside the notebooks directory with the following environment variables:
+
+- `EXAM_LEVEL_PATH`: Path to the exam-level data file.
+- `FINDING_LEVEL_PATH`: Path to the finding-level data file.
 
 ## Usage
 
